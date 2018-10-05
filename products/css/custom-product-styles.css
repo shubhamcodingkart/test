@@ -1,0 +1,127 @@
+.cart_item a.ajax_api_call{
+	position: initial;
+}
+
+a.ajax_api_call {
+    color: white;
+    background: #f05025;
+}
+
+.cart a.ajax_api_call{
+    color: white !important;
+}
+
+a.ajax_api_call i{
+	padding: 5px;
+}
+
+span.item-bar.dokan-clearfix {
+    min-height: 80px;
+}
+
+.home .product-sliders li .item-button a.added_to_cart {
+    margin-right: 10px !important;
+}
+
+.home .product-sliders li .item-button a.added_to_cart{
+    float: left;
+    padding: 0.4px 8px !important;
+}
+
+.product .ajax_api_call:hover {
+    border: 1px solid transparent;
+    border-radius: 2px;
+    text-decoration: none;
+    color: #fff;
+    color: #f05025;
+    background: #fff !important;
+    border-color: #DDD;
+}
+
+.product a.ajax_api_call i{
+    padding: 0px;
+}
+
+.product .item-button{
+    padding-top: 10px;
+    width: 100% !important;
+    float: left !important;
+}
+
+.product  a.add_to_cart_button{
+    margin-left: 5px;
+    float: left !important;
+}
+
+.product .summary .cart a.ajax_api_call{
+    font-size: 14px;
+    margin-left: 10px;
+    position: initial;
+}
+
+.product .summary .cart a.ajax_api_call:hover, .single_add_to_cart_button:hover {
+    border: 1px solid transparent !important;
+    border-radius: 2px !important;
+    text-decoration: none !important;
+    color: #fff !important;
+    color: #f05025 !important;
+    background: #fff !important;
+    border-color: #DDD !important;
+}
+
+form.woocommerce-cart-form .quantity input {
+    padding: unset;
+}
+
+body.woocommerce.single-product .entry-summary form.cart .button, body.woocommerce-page.single-product .entry-summary form.cart .button {
+   background: #f05025;
+   border: 1px solid #f05025;
+}
+
+body.woocommerce-page.single-product .entry-summary form.cart a.button i {
+   margin-left: 10px;
+}
+
+.woocommerce .quantity .qty {
+    width: 5em !important;
+}
+
+a.ajax_api_call:focus, .upload-button-non-loggedin:focus, .upload-button-non-loggedin:hover {
+    color: #fff;
+}
+
+.upload-button-non-loggedin{
+    color: white;
+    background: #f05025;
+}
+
+div#wrong_api_url_popup {
+    margin-top: 20%;
+}
+
+.notification_popup {
+    width: 320px;
+    position: fixed;
+    bottom: 5%;
+    right: 20px;
+    display: none;
+    background: #F05025;
+    border-radius: 7px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+    padding: 15px;
+}
+
+.notification_popup .close {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.notification_popup span {
+    word-break: break-all;
+    color: #fff;
+}
+
